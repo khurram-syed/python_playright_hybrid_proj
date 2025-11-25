@@ -1,0 +1,47 @@
+# -------- Python --------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# -------- Virtual Environment --------
+venv/
+venv1/
+.venv/
+
+# -------- VS Code --------
+.vscode/
+.code-workspace
+
+# -------- Playwright --------
+playwright-report/
+test-results/
+trace.zip
+*.trace
+*.png
+*.webm
+
+# -------- Allure Reports --------
+allure-results/
+allure-report/
+reports-html/
+
+# -------- Pytest Cache --------
+.pytest_cache/
+
+# -------- Logs --------
+*.log
+logs/
+.DS_Store
+
+# -------- Environment / Secrets --------
+.env
+.env.*
+*.secret
+*.key
